@@ -8,13 +8,13 @@ body{
 
 header{
     background-color: black;
-    height: 101px;
+    height: 100%;
 }
 /* COMEÇO DO NAV */
 ul{
     margin-top: 0;
-    padding: 40px;
-    word-spacing: 100px;
+    padding: 3%;
+    word-spacing: 5vw;
     text-align: center;
     
     
@@ -37,8 +37,8 @@ a{
 .conteudo{
     display: block;
     position: absolute;
-    top: 150px;
-    left: 50px;
+    top: 20%;
+    left: 10%;
     width: 50%;
 
 }
@@ -57,6 +57,11 @@ a{
     float: right;
 }
 
-.imagem img{
+.imagem {
+   background-image: url(../img/paginaRoubosLadrao.PNG);
+   background-size: 100%;
    padding: 150px;
+   box-sizing: border-box;
+   margin-top: 10%;
+   margin-right: 10%;
 }

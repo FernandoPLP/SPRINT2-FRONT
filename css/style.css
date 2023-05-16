@@ -2,28 +2,33 @@ body{
     padding: 0;
     margin: 0;
     color: white;
-    background-color: #ff9692;    
+    background-color: #ff9692;
+    box-sizing: border-box;  
 }
 
 
 header{
     background-color: #fd6d67;
-    height: 101px;
-
+    min-height: 101px;
+    
 }
 
 /* COMEÇO DO NAV */
+
+
 ul{
     margin-top: 0;
-    padding: 40px;
-    word-spacing: 100px;
+    word-spacing: 80px;
     text-align: center;
+    
+    
     
 }
 li{
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 0px;
     letter-spacing: 2px;
+    padding: 15px;
    
 }
 
@@ -31,12 +36,14 @@ a{
     color: white;
     text-decoration: none;
     font-size: 20px;
+    
 }
 
 
 
 .principal{
     padding-top: 25px;
+    
 }
 
 h1{
@@ -68,24 +75,33 @@ p{
  
 }
 
-.img1 img{
+.img1{
+    background-image: url(../img/pedestrecerto.jpg);
     position: absolute;
-    width: 927px;
-    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 40%;
+    height: 40%;
     left: 700px;
-    top: 443px;
+    top: 300px;
 }
 
-.img2 img{
-    width: 400px;
+.img2{
+    background-image: url(../img/nuvem01.jpg);
+    background-size: cover;
+    width: 20%;
+    height: 25%;
     position: absolute;
-    right: 150px;
-    top: 150px;
+    left: 900px;
+    top: 100px;
 }
 
-.img3 img{
+.img3{
+    background-image: url(../img/nuvem03.jpg);
+    background-repeat: no-repeat;
+    background-size: 50%;
     position: absolute;
     left: 150px;
-    width: 400px;
+    width: 20%;
     height: 200px;
 }
