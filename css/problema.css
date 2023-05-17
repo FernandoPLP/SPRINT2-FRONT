@@ -2,61 +2,59 @@ body{
     padding: 0;
     margin: 0;
     background-color: #2f2f2f;
-    color: white;     
+    color: white; 
+    background-image: url(../img/paginaRoubosLadrao.PNG);
+    background-size: 400px;
+    background-position: right 200px;
+    background-repeat: no-repeat;
 }
-
 
 header{
-    background-color: black;
-    height: 101px;
+    background-color: #070707;
+    min-height: 101px;
+
 }
+
 /* COMEÇO DO NAV */
 ul{
     margin-top: 0;
-    padding: 40px;
-    word-spacing: 100px;
+    padding: 20px;
     text-align: center;
-    
-    
+    display: flex; 
+    flex-wrap: wrap;
+    flex-basis: none;
+    justify-content: space-between;
+    list-style:none;
+      
 }
+
 li{
-    display: inline-block;
-    margin-left: 20px;
-    letter-spacing: 2px;
-    
-    
-   
+    padding: 20px;
 }
 
 a{
     color: white;
     text-decoration: none;
     font-size: 20px;
+    padding: 20px;
+    
+    
 }
-
 .conteudo{
-    display: block;
-    position: absolute;
-    top: 150px;
-    left: 50px;
-    width: 50%;
-
+    padding-top: 25px;
 }
 
 .conteudo h1{
     text-align: center;
     font-size: 40px;
+    width: 50%;
+    
 }
 
 .conteudo{
     font-size: 30px;
+    width: 50%;
+    margin-left: 90px;
+    text-align: justify;
 
-}
-
-.imagem{
-    float: right;
-}
-
-.imagem img{
-   padding: 150px;
 }

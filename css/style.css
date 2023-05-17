@@ -2,54 +2,67 @@ body{
     padding: 0;
     margin: 0;
     color: white;
-    background-color: #ff9692;    
+    background-color: #ff9692; 
+    background-image: url(../img/pedestrecerto.jpg);
+    background-size: 700px;
+    background-position: right 300px;
+    background-repeat: no-repeat;
+
 }
 
 
 header{
     background-color: #fd6d67;
-    height: 101px;
+    min-height: 101px;
 
 }
 
 /* COMEÇO DO NAV */
 ul{
     margin-top: 0;
-    padding: 40px;
-    word-spacing: 100px;
+    padding: 20px;
     text-align: center;
-    
+    display: flex; 
+    flex-wrap: wrap;
+    flex-basis: none;
+    justify-content: space-between;
+    list-style:none;
+      
 }
+
 li{
-    display: inline-block;
-    margin-left: 20px;
-    letter-spacing: 2px;
-   
+    padding: 20px;
 }
+
 
 a{
     color: white;
     text-decoration: none;
     font-size: 20px;
+    padding: 20px;
+    
 }
 
-
-
+/* Começo da pagina */
 .principal{
     padding-top: 25px;
+  
 }
+
 
 h1{
     font-size: 50px;
     margin-left: 40px;
     margin-bottom: 0;
     margin-top: 0;
+    font-variant: small-caps;
 }
 h2{
     font-size: 60px;
     margin-bottom: 0;
     margin-left: 25px;
     margin-top: 0;
+    font-variant: small-caps;
 }
 h3{
     margin-left: 160px;
@@ -62,30 +75,18 @@ p{
 }
 
 .integrantes{
-    position: absolute;
-    bottom: 15px;
-    left: 20px;
+    margin-top: 100px;
  
 }
 
-.img1 img{
+/* .img1{
+    background-image: url(../img/pedestrecerto.jpg);
+    background-size: cover;
     position: absolute;
-    width: 927px;
-    height: 500px;
-    left: 700px;
-    top: 443px;
-}
+    width: 50%;
+    height: 50%;
+    left: 50%;
+    order: -1;
+    
+} */
 
-.img2 img{
-    width: 400px;
-    position: absolute;
-    right: 150px;
-    top: 150px;
-}
-
-.img3 img{
-    position: absolute;
-    left: 150px;
-    width: 400px;
-    height: 200px;
-}
