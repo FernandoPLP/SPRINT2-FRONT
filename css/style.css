@@ -20,7 +20,7 @@ header{
 /* COMEÇO DO NAV */
 ul{
     margin-top: 0;
-    padding: 20px;
+    padding: 2%;
     text-align: center;
     display: flex; 
     flex-wrap: wrap;

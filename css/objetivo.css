@@ -2,16 +2,16 @@ body{
     padding: 0;
     margin: 0;
     color: black;
-    background-color: #B3F3A3; 
-    background-image: url(../img/proposta.jpg);
-    background-size: 400px;
+    background-color: #a4e5f7; 
+    background-image: url(../img/obj.jpg);
+    background-size: 600px;
     background-position: right 200px;
     background-repeat: no-repeat;
 }
 
 
 header{
-    background-color: #069436;
+    background-color: #2eb3dd;
     min-height: 101px;
 
 }
@@ -50,13 +50,13 @@ a{
 .conteudo h1{
     text-align: center;
     font-size: 40px;
-    width: 50%;
+    width: 40%;
     
 }
 
 .conteudo p{
     font-size: 30px;
-    width: 50%;
+    width: 40%;
     margin-left: 90px;
     text-align: justify;
 

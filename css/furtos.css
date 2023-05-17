@@ -1,17 +1,16 @@
 body{
     padding: 0;
     margin: 0;
-    color: black;
-    background-color: #B3F3A3; 
-    background-image: url(../img/proposta.jpg);
-    background-size: 400px;
-    background-position: right 200px;
-    background-repeat: no-repeat;
+    color: white;
+    
+    
+
+
 }
 
 
 header{
-    background-color: #069436;
+    background-color:  #6d6d6d; 
     min-height: 101px;
 
 }
@@ -35,29 +34,19 @@ li{
 
 
 a{
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: 20px;
     padding: 20px;
     
 }
-
 /* Começo do conteudo principal */
-.conteudo{
-    padding-top: 25px;
-}
-
-.conteudo h1{
+h1{
+    color: black;
     text-align: center;
-    font-size: 40px;
-    width: 50%;
-    
 }
 
-.conteudo p{
-    font-size: 30px;
-    width: 50%;
-    margin-left: 90px;
-    text-align: justify;
-
+img{
+    width: 70%;
+    margin-left: 150px;
 }

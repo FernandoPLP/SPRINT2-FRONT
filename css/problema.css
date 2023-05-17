@@ -18,7 +18,7 @@ header{
 /* COMEÇO DO NAV */
 ul{
     margin-top: 0;
-    padding: 20px;
+    padding: 2%;
     text-align: center;
     display: flex; 
     flex-wrap: wrap;
@@ -51,7 +51,7 @@ a{
     
 }
 
-.conteudo{
+.conteudo p{
     font-size: 30px;
     width: 50%;
     margin-left: 90px;
